@@ -82,7 +82,6 @@ const Post: React.FC<PostProps> = (props) => {
 	return (
 		<>
 			<Head>
-				<meta name="robots" content="noindex, nofollow">
 				<meta property="og:title" content={removeTags(post.title)} />
 				<link rel="canonical" href={`https://${host}/${path}`} />
 				<meta property="og:description" content={removeTags(post.excerpt)} />
